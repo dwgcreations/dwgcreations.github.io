@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Backing up Windows 10 | Dwg Creations</title>
+<meta name="generator" content="Jekyll v3.8.3" />
+<meta property="og:title" content="Backing up Windows 10" />
+<meta name="author" content="David Golliher" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Introduction Backing up Windows 10 is one of the easy routine maintenance things that can be completely automated, with a little tinkering." />
+<meta property="og:description" content="Introduction Backing up Windows 10 is one of the easy routine maintenance things that can be completely automated, with a little tinkering." />
+<link rel="canonical" href="http://localhost:4000/blog/it/backup/images/2018/07/17/backing-up-windows-10.html" />
+<meta property="og:url" content="http://localhost:4000/blog/it/backup/images/2018/07/17/backing-up-windows-10.html" />
+<meta property="og:site_name" content="Dwg Creations" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-07-17T09:09:13-04:00" />
+<script type="application/ld+json">
+{"description":"Introduction Backing up Windows 10 is one of the easy routine maintenance things that can be completely automated, with a little tinkering.","author":{"@type":"Person","name":"David Golliher"},"@type":"BlogPosting","url":"http://localhost:4000/blog/it/backup/images/2018/07/17/backing-up-windows-10.html","headline":"Backing up Windows 10","dateModified":"2018-07-17T09:09:13-04:00","datePublished":"2018-07-17T09:09:13-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/it/backup/images/2018/07/17/backing-up-windows-10.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/blog/feed.xml" title="Dwg Creations" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">Dwg Creations</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Backing up Windows 10</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-07-17T09:09:13-04:00" itemprop="datePublished">Jul 17, 2018
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">David Golliher</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2>Introduction</h2>
+<p>Backing up Windows 10 is one of the easy routine maintenance things that can be completely automated, with a little tinkering.</p>
+
+<h1>The new built-in Windows backup "File History"</h1>
+<p>If you go to Settings and backup, you’ll find that the backup feature in Windows 10 is focused around File History.
+This approach in some aspects can be useful, as it theoretically puts less drag on the drives since it’s backing up files based on <b>usage</b>. Meaning, if a file is left untouched between backups, it is not redundantly backed up in the way it used to be with Windows 7’s backup-restore function.
+This is pretty important if you’re using SSD drives, and/or are worried about unnecessary and redundant i/os. Some may consider it “min-maxing” and they are right in one aspect, being that drives are so cheap nowadays you shouldn’t worry about wearing them out being replaceable as they are. On the other hand, each backup-restore that you perform <i>without file-history</i> will take considerably longer. If you backup when you’re in bed, this isn’t a problem either.
+Images are also compressed and can be overall more space-friendly when you’re backing up lots of things.
+Some people, including myself still opt for using the Windows 7 backup-restore feature. Below I’ll explain why.</p>
+
+<h1>Old ways die hard</h1>
+<p>To some it may seem archaic to do a full image type backup. But it still definitely has it’s use. One of the main things being the native functionality of it. 
+An image can be applied to different computers, with different hardware. You’ll have difficulty getting around that if you rely on a file-history exclusive backup.
+A good example of this happened to me recently. I had a hard drive go bad, and without a backup I grumbled about reloading Windows 10 manually. Then I remembered I have a VMware backup image of a 
+Windows 10 deployment with all the software I use already installed. I booted the image up in VMWare, attached a new physical hard drive as a secondary within the VM and just did a clone copy of the VMware OS drive.
+I put the hard drive in the laptop and it booted up fine, and proceeded to automatically update it’s own drivers via Windows Update. Pretty nifty.</p>
+
+<h1>Third party software viability</h1>
+<p>I typically do not recommend any software for things that can be done by command line, but if you’re queasy about it, there are a few good options.</p>
+
+<p>*Macrium Reflect <a href="https://www.macrium.com/reflectfree">Link</a> is a pretty good free utility that you can use to make a clone like I talked about above. It has a full GUI and double-checks if you want to do things (warnings for things such as deleting system partitions, etc)</p>
+
+<p>*Paragon Partition Manager <a href="https://www.paragon-software.com/free/pm-express/">Link</a> useful application for doing many different partition operations like resizing. Recommended for those who get anxious at the cmd line.</p>
+
+<p>*Acronis True Image <a href="https://www.acronis.com/en-us/personal/true-image-features/">Link<a> another application like Macrium Reflect, it performs backups using full images.</a></a></p>
+
+<h1>Cloud backup for system images</h1>
+<p>One thing I didn’t cover on purpose is Cloud backups. That’s because (for home users) it’s still very unusable to use this for full image backups. The reason why is the current average Internet bandwidth for a household wouldn’t support it. For individual file backups, check out <a href="http://google.com/drive">Google Drive</a>, <a href="http://onedrive.ms">Microsoft Onedrive</a>, and <a href="http://mega.co.nz">Mega</a>.</p>
+
+  </div><a class="u-url" href="/blog/it/backup/images/2018/07/17/backing-up-windows-10.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Dwg Creations</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Dwg Creations</li><li><a class="u-email" href="mailto:admin@dwgcreations.com">admin@dwgcreations.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/davidgolliher"><svg class="svg-icon"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg> <span class="username">davidgolliher</span></a></li><li><a href="https://www.twitter.com/daveglhr"><svg class="svg-icon"><use xlink:href="/blog/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">daveglhr</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A cache of my findings.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
