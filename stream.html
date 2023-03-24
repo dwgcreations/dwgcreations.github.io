@@ -1,6 +1,25 @@
 <html><body>
 <div><iframe width="90%" height="90%" src="https://rtsp.me/embed/Tn9f5KEe/" frameborder="0" allowfullscreen></iframe>
   <p>WREN Stream 2023 - David Golliher - <u><b>Active Hours: <font color=blue>4:30AM - 8:00PM</font></b></u> Eastern Standard Time</p>
-  <a href="http://www.dwgcreations.com/stream.html">Shareable Link</a> -</div>
+  <input type="text" value="http://www.dwgcreations.com/stream.html" id="myInput">
+<button onclick="myFunction()">Copy Shareable Link</button>
+
+<script>
+function myFunction() {
+  // Get the text field
+  var copyText = document.getElementById("myInput");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+  // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+  
+  // Alert the copied text
+  alert("Link Copied: " + copyText.value);
+}
+</script>
+  </div>
   </body>
 </html>
