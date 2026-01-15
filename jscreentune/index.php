@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B69TQ5V80S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B69TQ5V80S');
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jScreenTune Pixel Recovery Software</title>
+<style type="text/css">
+body,td,th {
+	color: #000;
+}
+body {
+	background-color: #FFF;
+}
+</style>
+</head>
+
+<body>
+<table width="278" border="1" align="center">
+  <tr>
+    <td width="283" align="center"><h2><strong>jScreenTune<br />
+    </strong>Pixel Recovery Software</h2></td>
+  </tr>
+</table>
+<p align=center><strong><a href=#Download>Download</a> - <a href="#FAQ">FAQ</a> - <a href=#About>About</a> </strong>- <strong>Bugtracker</strong><strong></strong></p>
+<p align=center>&nbsp;</p>
+<h1><strong><a name=Download>Download:</a></strong></h1>
+<p>jScreenTune is currently in beta. <strong><a href="http://www.dwgcreations.com/jscreentune/JScreentune_current_id93345_344_3.zip">CLICK HERE</a></strong> to download the latest version (Windows).<br />
+  <br />
+<strong><font size=2>You must have the latest version of <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java</a> installed.</font></strong> (JRE 7 or above)</p>
+<p><br />
+  <strong>LATEST REVISION NOTES</strong>: Enabled support for resolutions up to 9999x9999
+<p>-----------
+<p>
+
+<BR><BR><BR><BR><BR><BR>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="TK5KE7T3KB8H2">
+<table>
+<tr><td><input type="hidden" name="on0" value="Choose an amount">Choose an amount</td></tr><tr><td><select name="os0">
+	<option value="Amount">Only $9.99!</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+&nbsp;</p><strong>Click the button above to donate (via PayPal) Donations are <u><b>greatly</b></u> appreciated!</strong>
+<BR>Donators are given a direct link to download, with <i><u>no surveys</u></i>! Upon donating any amount, the link will be sent to your email.<BR><BR><BR><BR>
+<p><strong>README:</strong></p>
+<p>*Extract to a folder<br />
+</p>
+<p>*Double-Click jScreenTune<br />
+</p>
+<p>*(OPTIONAL)Open the Stuck-Pixel finder and cycle through the colors to locate dead or stuck pixels. <br />
+  After this step, close the Stuck-Pixel window to return to the main program.<br />
+</p>
+<p>*Enter Resolution, press the save button<br />
+</p>
+<p>*Click Start jScreenTune to begin rendering</p>
+<p>It is recommended that the program is left running for at least 12 hours.<br />
+</p><BR><BR><BR><BR>
+<h2><a name=FAQ>FAQ:</a></h2>
+<p>&nbsp;</p>
+<p><strong>What is jScreenTune? What is it used for?<br />
+</strong>jScreenTune is a multi-platform application written in Java which can be used to revive LCD/LED/Plasma monitor screens and TVs. jScreenTune fixes the problems they accumulate over time (i.e stuck / burnt pixels - see below)</p>
+<p>&nbsp;</p>
+<p><BR />
+  <strong>What is a "Stuck Pixel"? What is a "Burnt-out Pixel"? : </strong><BR />
+This is the term for a small dot on your screen which appears "stuck" to a certain color. This is one of the major drawbacks to LED/LCD monitors and TVs- they have a tendancy to have stuck-burnt out pixels over a period of usage. To combat this problem, I have developed a program aimed to fixing these "stuck" and "dead" pixels<BR />
+</p>
+<p>&nbsp;</p>
+<p><BR />
+<strong>There is a big dark spot on my TV. Where did it come from? Can JScreenTune fix it? :</strong><BR />
+These spots accumulate over time and will only get worse with time. JScreenTune has been successful at removing these spots in several tests.
+</p>
+<p>&nbsp;</p>
+<p><BR />
+  <B>What is the success rate of jScreenTune?</B>
+  <BR />It is directly dependent on the hardware you are running it on, the total time you ran the renderer, and the "size" you render in. You can actually go above normal resolutions (up to 9999x9999 is supported) - so for example if 800x600 doesnt work, then why not try 1024x768. After all, the Plasma-Overlay has to be located beneath the targeted pixel.
+  <BR />
+</p>
+<p>&nbsp;</p>
+<p><BR />
+  <B>How much does jScreenTune cost to use?</b>
+  <br />jScreenTune is FREEWARE. It is free to download and use jScreenTune. 
+  <BR />
+  </P>
+  <p>&nbsp;</p>
+  <p><BR /><B>USING jScreenTune<br />
+</B>First use the Pixel Finder to locate any stuck/burnt pixels on your monitor screen. After that, enter in the current resolution you're running (for example 1024 x 768 ) and click Start jScreenTune. Let it cycle through the colors for <b>a recommended time period of 6-12 hours</b> before shutting the program down. <B>Please do not attempt to run any other programs while running jScreenTune, as it will <u>directly</u> affect the performance/effectiveness of the program.</B></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1><strong><a name="About" id="About">About</a></strong>:</h1>
+<p>jScreenTune development was started in early June 2011, as a project aimed towards offering a pixel recovery software that does more than just flash random colors. Designed with a specific fractal generator algorithm, jScreenTune produces a  completely randomized color cycle that is not featured by any other pixel recovery software. jScreenTune can be accessed from nearly any device which supports Java. This will eventually include smartphones, and I plan on releasing both an iPhone and Droid 'app' in the next few months. The success rate of jScreenTune has been acclaimed by quite a few people so far. jScreenTune has been used at a several local public libraries and schools to refresh the life of their LCD monitors, which were heavily laden with dead/stuck pixels.  jScreenTune has also been tested on Linux based computers, where it ran with excellent performance (at times, even faster than the Windows build). This software has been tested on the following platforms: Windows 98/XP/2003 Server/2008 Server/Vista/7 (both x86 and x64 versions of Vista and 7)- Ubuntu Linux, and Gentoo Linux</p>
+<p>&nbsp;</p>
+<p><strong>About the Developer:<br />
+</strong>I am an IT Professional. This project is on-going, so look forward to continued updates! This project was started in 2011.</p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1>Disclaimer:</h1>
+<BR>jScreenTune software is not guaranteed to fix your screen. <BR>
+While it has a high success rate, there are times when the screen simply<BR>
+cannot be fixed by any method. jScreenTune is designed for any type of LCD<BR>
+and Plasma display. This includes TVs, Computer Monitors (both laptop and desktop),<BR>
+smart phones, portable dvd players, tablets, and so on. If you can project through it,
+it's useable.<BR><BR>
+One thing it <b><u>wont</u></b> do is make the problem worse.<BR>
+Nonetheless, I take no responsibility for your useage of this software.<BR>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p><BR><BR><BR><BR>
+
+	
+</body>
+</html>
